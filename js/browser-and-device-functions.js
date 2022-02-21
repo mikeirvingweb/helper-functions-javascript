@@ -1,4 +1,14 @@
-/* Detect if the browser supports touch. e.g. DeviceSupportsTouch(); returns tru / false */
+/* Scroll the Browser to the very top. Useful on Mobile with a 'return to top' button at the bottom of a page */
+function ScrollToTop() {
+	window.scrollTo(0, 0);
+}
+
+/* Programatically navigate the browser to another page. e.g. GotoPage("https://www.github.com/"); */
+function GotoPage(url) {
+	window.location = url;
+}
+
+/* Detect if the browser supports touch. e.g. DeviceSupportsTouch(); returns boolean */
 function DeviceSupportsTouch() {
 	var touchScreen = ('ontouchstart' in window || navigator.msMaxTouchPoints);
 	
