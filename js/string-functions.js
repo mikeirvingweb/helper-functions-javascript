@@ -1,4 +1,4 @@
-/* Check and Email Address string looks to be in the correct format. Usage ValidateEmail("user@domain.com"); returns boolean */
+/* Check an Email Address string looks to be in the correct format. Usage ValidateEmail("user@domain.com"); returns boolean */
 function ValidateEmail(email) {
 	var patEmail = /^[-._&0-9a-zA-Z]+[@][-._&0-9a-zA-Z]+[.][._0-9a-zA-Z]+[a-zA-Z]$/;
 	return patEmail.exec(email) != null;
