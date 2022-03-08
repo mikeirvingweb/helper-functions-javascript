@@ -1,5 +1,3 @@
-
-
 # Helper Functions for JavaScript (plus jQuery)
 Common functionality I use in JavaScript (plus jQuery) to help me with common data and environment issues.
 
