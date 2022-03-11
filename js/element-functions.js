@@ -10,7 +10,7 @@ function IsASelectActive() {
 
 /* Stop the mouse wheel from being used to roll numbers up and down in <input type="number"> fields. Usage DisableMouseWheelOnNumberFields(); */
 function DisableMouseWheelOnNumberFields() {
-	$('form').on('focus', 'input[type=number]', function (e) {
+	$('body').on('focus', 'input[type=number]', function (e) {
 		$(this).on('wheel.disableScroll', function (e) {
 			e.preventDefault()
 		})
