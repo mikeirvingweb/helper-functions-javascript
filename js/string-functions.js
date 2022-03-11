@@ -28,3 +28,11 @@ function IntToTwoDigitString(inInt) {
 	
 	return outString;
 }
+
+/* Check if URL has the https:// or http:// prefix. If not, add the http:// prefix. Returns string. Usage MakeFullyFormedURL("github.com"); returns "http://github.com" */
+function MakeFullyFormedURL(url) {
+	if( !( (url.indexOf("http://") == 0) || (url.indexOf("https://") == 0) ) )
+		url = "http://" + url;
+		
+	return url;
+}
