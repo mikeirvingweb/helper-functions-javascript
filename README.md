@@ -17,7 +17,7 @@ I have tried to divide the functions up by usage type:
 *time-functions.js* ⏲
 
 #### jQuery
-Also included is *jquery-3.7.0.min.js* as some of the functionality requires jQuery.
+Also included is *jquery-3.7.1.min.js* as some of the functionality requires jQuery.
 
 #### Feel free to add or amend
 I expect to add to these functions over time, and functions may get moved between files, or placed into new files, as appropriate.
